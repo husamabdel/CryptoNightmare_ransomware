@@ -84,13 +84,13 @@ FILE* pop_file_out(){
 
 // this is @deprecated, its been addressed inside add_all_dir();
 void print_debug_log(){
-
+/*
     FileNodes *temp = head;
 
     int count=1;
     while(temp != NULL){
 
-        char *nameOfFile=temp->fPointer->_tmpfname;
+        char *nameOfFile=temp->fPointer->_wide_data;
 
 
 
@@ -98,7 +98,7 @@ void print_debug_log(){
         count++;
         temp=temp->next;
     }
-
+    */
 }
 
 
