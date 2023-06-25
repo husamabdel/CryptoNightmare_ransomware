@@ -13,13 +13,6 @@
 
 extern const char key[];
 
-int main(int argc, char const *argv[])
-{
-
-
-    return 0;
-}
-
 bool encrypt(char *filename, char *key)
 {
 
