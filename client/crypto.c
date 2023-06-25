@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-bool encrypt(char *filename, char *key)
+bool encrypt(char *filename, const unsigned char *key)
 {
 
     static long filesEncrypted = 1;
@@ -94,7 +94,7 @@ bool encrypt(char *filename, char *key)
 
 }
 
-bool decrypt(char *filename, char *key)
+bool decrypt(char *filename, const unsigned char *key)
 {
 
     static long filesEncrypted = 1;

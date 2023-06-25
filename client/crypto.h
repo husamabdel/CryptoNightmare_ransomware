@@ -13,8 +13,8 @@
 #define AES_KEY_LENGTH 128
 
 
-bool encrypt(char *filename, char *key);
-bool decrypt(char *filename, char *key);
+bool encrypt(char *filename, const unsigned char *key);
+bool decrypt(char *filename, const unsigned char *key);
 
 char iv[AES_KEY_LENGTH]={"@ojhge84hn4hd89j"};
 
